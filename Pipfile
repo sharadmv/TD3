@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+parasol = {git = "https://github.com/sharadmv/parasol.git",editable = true}
+deepx = {git = "https://github.com/sharadmv/deepx",editable = true}
+tensorflow = "*"
+opencv-python = "*"
+gym = {extras = ["mujoco"],version = "*"}
+tqdm = "*"
+pygame = "*"
+torch = {file = "https://download.pytorch.org/whl/cpu/torch-0.4.1.post2-cp37-cp37m-linux_x86_64.whl"}
+
+[requires]
+python_version = "3.7"
